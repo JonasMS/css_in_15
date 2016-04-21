@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+
+  border: solid red 1px;
 }
 
 body {
@@ -50,6 +52,23 @@ footer {
 }
 
 @media (min-width: 769px) {
+
+  header h1,
+  nav,
+  .gallery li,
+  .nav li {
+    display: inline-block;
+  }
+
+  .gallery li {
+    width: 33%;
+  }
+
+  .gallery img {
+    height: 200px;
+  }
+
+
 }
 
 @media (min-width: 1025px) {
